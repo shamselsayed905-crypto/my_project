@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>هدية عيد ميلاد ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+html {
+    display: none;
+}
+</style>
+
+<body>
+    
+    <script>
+const password = prompt("ادخل كلمة السر ❤️");
+
+if (password !== "18/12/2025") {
+    document.body.innerHTML = `
+        <h1 style="text-align:center; margin-top:100px;">
+            ❌ كلمة السر غير صحيحة
+        </h1>
+    `;
+} else {
+    document.documentElement.style.display = "block";
+}
+</script>
+
+<div id="hearts"></div>
+
+<section id="page1" class="page active">
+
+<h1>🎂اولاً كل سنة وأنت طيب ❤️</h1>
+
+<p class="small-text">
+ثانياً أنا اشتغلت على الهدية دي بكل حب وتعب ❤️<br>
+ولو معجبتكش ومديتنيش رياكشن حلو هتزعل 🤩
+</p>
+
+<img src="ballon.png.jpeg" class="first-page-image">
+
+<p class="start">
+دوس على الظرف وابدأ الرحلة ✉️
+</p>
+
+<div class="envelope" onclick="showPage(2)">
+✉️
+</div>
+
+</section>
+
+<section id="page2" class="page">
+
+<h1>🎂 عيد ميلاد Yostfandaityyy</h1>
+
+<div id="counter"></div>
+
+<p>
+النهاردة اتولد أحلى مهندس في حياتي 👩‍❤️‍👨
+<br>
+كل سنة وأنت طيب يا عمري ❤️
+</p>
+
+<h3>اسمع يا عثل 🎵</h3>
+
+<audio controls>
+<source src="song.mp3.mp3" type="audio/mpeg">
+</audio>
+
+<br><br>
+
+<img src="cake.png.jpeg" class="sticker">
+
+<br>
+
+<button onclick="showPage(3)">
+كمل المفاجأة ❤️
+</button>
+
+</section>
+
+<section id="page3" class="page">
+
+<h1>ذكرياتنا سوا ❤️‍🩹</h1>
+
+<div class="gallery">
+
+<img src="photo1.jpg.jpeg">
+<img src="photo2.jpg.jpeg">
+<img src="photo3.jpg.jpeg">
+<img src="photo4.jpg.jpeg">
+
+<img src="photo5.jpg.jpeg">
+<img src="photo6.jpg.jpeg">
+<img src="photo7.jpg.jpeg">
+
+<img src="photo8.jpg.jpeg">
+<img src="photo9.jpg.jpeg">
+<img src="photo10.jpg.jpeg">
+<img src="photo11.jpg.jpeg">
+<img src="photo12.jpg.jpeg">
+<img src="photo13.jpg.jpeg">
+<img src="photo14.jpg.jpeg">
+
+<img src="photo15.jpg.jpeg">
+<img src="photo16.jpg.jpeg">
+</div>
+
+<button onclick="showPage(4)">
+كمل ❤️
+</button>
+
+</section>
+
+<section id="page4" class="page">
+
+<h1>
+رسالة لروحي ❤️
+</h1>
+
+<img src="eyes.jpg.jpeg" class="eyes">
+
+<p id="typing"></p>
+
+<div class="wish">
+
+<h3>اكتب أمنية بتتمناها وعرفهالي 👀❤️</h3>
+
+<input type="text" placeholder="اكتب أمنيتك هنا">
+
+</div>
+
+<button onclick="showPage(5)">
+كمل ❤️
+</button>
+
+</section>
+
+<section id="page5" class="page">
+
+<h2>
+اشتغلت على الفكرة دي كتير ❤️
+</h2>
+
+<p>
+وظهري وجعني وعيني وجعتني 😭
+<br>
+بس المهم تبقى مبسوط ❤️
+<br>
+ومعلش كل شوية هفكرك إني تعبت فيها 😂
+</p>
+
+<img src="heartface.png" class="sticker">
+
+<h3>
+إيه رأيك في الهدية؟
+</h3>
+
+<button onclick="badGift()">
+ما عجبتنيش 😒
+</button>
+
+<button onclick="showPage(6)">
+حلوة أوي بجد 😍
+</button>
+
+<br><br>
+
+<img src="hug.png.jpeg" class="sticker">
+
+<div id="bad"></div>
+
+</section>
+
+<section id="page6" class="page">
+
+<h1>
+اعععععععععععع ❤️
+</h1>
+
+<h2>
+خد بوسة عشان بحبك 💋💋💋
+</h2>
+<video controls width="350">
+    <source src="kiss.mp4.mp4" type="video/mp4">
+</video>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
